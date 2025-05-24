@@ -10,15 +10,14 @@ echo -e "\e[0;32mEnter Password :\e[0m"
 read xx 
 if [ " $xx " =  " 3456 " ];
 then  
-echo " x "
-echo -e "\e[1;34mHillel\e[0m"
+echo "x"
 ping -c 11 127.0.0.1
 echo -e "\e[0;32mCO_de\e[0m"   
 id                 
 elif [ " $xx " = " Truly " ];
 then
-echo " true "       
+echo "true"       
 else              
-echo " false "                   
+echo "false"                   
 fi
 exit
